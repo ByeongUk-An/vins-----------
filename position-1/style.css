@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* position: static | relative | absolute: html기준 | fixed: view 기준 | sticky << 얘는 익스에서 잘 안됨 */
+/* z-index는 포지션의 순서를 정해주는 녀석 | 부모 자식한테는 효율이 없음 | z-index를 주면 html 밖으로 나가기때문에 클릭이 안됨 */
+
+html,
+body {
+  height: 10000px;
+}
+
+.wrap {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background: yellow;
+  z-index: 30;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  background: red;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+}
+
+.content2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  background: blue;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.fixed {
+  position: fixed;
+  width: 500px;
+  height: 200px;
+  background: steelblue;
+  top: 500px;
+}
+
+.sticky {
+  position: sticky;
+  width: 500px;
+  margin-left: 500px;
+  height: 200px;
+  background: green;
+  top: 50px;
+}
