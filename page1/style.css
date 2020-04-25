@@ -22,6 +22,7 @@ header {
   left: 0;
   width: 100%;
   height: 80px;
+  z-index: 999999999;
 }
 
 .logo {
@@ -71,4 +72,47 @@ header {
   text-decoration: none;
   color: #666;
   transition: 0.2s;
+}
+/* mainb WORK */
+
+.mainb {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  padding: 10px;
+}
+.mainb img {
+  width: 100%;
+  height: 100%;
+}
+.lombok {
+  width: 700px;
+  height: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.lombok h2 {
+  font-size: 100px;
+  color: #333;
+  letter-spacing: 15px;
+}
+
+.lombok span {
+  font-size: 40px;
+  font-weight: 300px;
+  position: relative;
+}
+
+.lombok div {
+  margin: 10px;
+  border-bottom: 3px solid #777;
+  width: 120px;
+  height: 1px;
 }
