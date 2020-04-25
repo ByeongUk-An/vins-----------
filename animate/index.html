@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keyframes</title>
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        background: #121212;
+        animation: end 5s ease-in-out infinite;
+      }
+
+      @keyframes end {
+        0% {
+          background-color: aqua;
+        }
+
+        50% {
+          background-color: blueviolet;
+        }
+
+        100% {
+          background: #000;
+        }
+      }
+      /* max 이하일때, min 이상일때  */
+      @media (max-width: 480px) {
+        .box {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box box1 box3 box2"></div>
+  </body>
+</html>
