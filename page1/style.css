@@ -285,3 +285,32 @@ header {
   width: 60px;
   padding: 100px;
 }
+
+footer {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-icon i {
+  font-size: 24px;
+  margin: 0 5px;
+}
+
+.btn-icon i:hover {
+  cursor: pointer;
+}
+
+.addres {
+  display: block;
+  margin: 10px;
+  margin-right: 20px;
+  line-height: 40px;
+}
+
+.good {
+  font-size: 40px;
+  font-weight: bold;
+}
