@@ -116,3 +116,123 @@ header {
   width: 120px;
   height: 1px;
 }
+
+.articles {
+  width: 100%;
+  height: auto;
+  padding: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+}
+
+.articles h3 {
+  font-size: 28px;
+  margin-bottom: 7px;
+}
+
+.articles .ub {
+  width: 100px;
+  height: 3px;
+  background-color: #777;
+}
+
+.article-w {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.article-w article {
+  width: 340px;
+  height: 450px;
+}
+
+.art-img1,
+.art-img2,
+.art-img3 {
+  width: 340px;
+  height: 225px;
+}
+
+.art-text1,
+.art-text2,
+.art-text3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 340px;
+  height: 225px;
+  background-color: #fff;
+}
+
+.art-img1 img,
+.art-img2 img,
+.art-img3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.art-text1 .ub1,
+.art-text2 .ub2,
+.art-text3 .ub3 {
+  width: 100px;
+  height: 3px;
+  background-color: #666;
+  margin-bottom: 20px;
+}
+
+.art-text11,
+.art-text22,
+.art-text33 {
+  margin-bottom: 13px;
+}
+
+.about {
+  display: flex;
+  width: 100%;
+  height: 800px;
+}
+
+.about-img {
+  width: 50%;
+  height: 100%;
+  background: tomato;
+}
+
+.about-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  padding: 0 100px;
+}
+
+.about_text {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about-ub1 {
+  width: 50px;
+  height: 4px;
+  background: #666;
+  margin-bottom: 32px;
+}
+
+.about-text p {
+  font-size: 20px;
+  line-height: 40px;
+}
